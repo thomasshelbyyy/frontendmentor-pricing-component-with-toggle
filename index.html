@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+  <title>Frontend Mentor | Pricing Component With Toggle Master</title>
+
+  <link rel="stylesheet" href="./style.css">
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+    rel="stylesheet">
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution {
+      font-size: 11px;
+      text-align: center;
+    }
+
+    .attribution a {
+      color: hsl(228, 45%, 44%);
+    }
+  </style>
+</head>
+
+<body>
+
+  <main>
+    <h1 class="title">Our Pricing</h1>
+
+    <div class="toggle-section">
+      <p>Annually</p>
+      <div class="toggle">
+        <input type="checkbox" id="toggleSwitch" checked>
+        <label for="toggleSwitch"></label>
+      </div>
+      <p>Monthly</p>
+    </div>
+
+    <div class="card-container">
+
+      <div class="card side-card left-card">
+        <h2 class="card-title">Basic</h2>
+        <p class="card-price">&dollar;<span id="basic-price">19.99</span></p>
+        <p>500 GB Storage</p>
+        <div class="divider"></div>
+        <p>2 Users Allowed</p>
+        <div class="divider"></div>
+        <p>Send up to 3 GB</p>
+        <div class="divider"></div>
+        <button class="btn">LEARN MORE</button>
+      </div>
+
+      <div class="card middle-card">
+        <h2 class="card-title">Professional</h2>
+        <p class="card-price">&dollar;<span id="professional-price">24.99</span></p>
+        <p>1 TB Storage</p>
+        <div class="divider"></div>
+        <p>5 Users Allowed</p>
+        <div class="divider"></div>
+        <p>Send up to 10 GB</p>
+        <div class="divider"></div>
+        <button class="btn middle-btn">LEARN MORE</button>
+      </div>
+
+      <div class="card side-card right-card">
+        <h2 class="card-title">Master</h2>
+        <p class="card-price">&dollar;<span id="master-price">39.99</span></p>
+        <p>2 TB Storage</p>
+        <div class="divider"></div>
+        <p>10 Users Allowed</p>
+        <div class="divider"></div>
+        <p>Send up to 20 GB</p>
+        <div class="divider"></div>
+        <button class="btn">LEARN MORE</button>
+      </div>
+
+    </div>
+
+    <div class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+      Coded by <a href="#">Rizky Afriyandi</a>.
+    </div>
+  </main>
+
+
+  <script src="./script.js"></script>
+</body>
+
+</html>
